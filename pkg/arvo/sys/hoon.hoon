@@ -1830,11 +1830,7 @@
 +|  %container-from-container
 ::
 ++  limo                                                ::  listify
-  |*  a=*
-  ^+  =<  $
-    |@  ++  $  ?~(a ~ ?:(*? [i=-.a t=$] $(a +.a)))
-    --
-  a
+  le:nl
 ::
 ++  malt                                                ::  map from list
   |*  a=(list)
