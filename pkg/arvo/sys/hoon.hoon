@@ -1839,6 +1839,17 @@
   sot:nl
 ::
 ++  nl
+  =>
+    |%
+    ::                                                  ::
+    ++  snag                                            ::  index
+      |*  [a=@ b=(list)]
+      ?~  b
+        ~_  leaf+"snag-fail"
+        !!
+      ?:  =(0 a)  i.b
+      $(b t.b, a (dec a))
+    --
   |%
   ::                                                    ::
   ++  los                                               ::  construct list
@@ -1857,14 +1868,6 @@
     |*  a=(list)
     =>  .(a ^+((los a) a))
     (~(gas in `(set _i.-.a)`~) a)
-  ::                                                    ::
-  ++  snag                                              ::  index
-    |*  [a=@ b=(list)]
-    ?~  b
-      ~_  leaf+"snag-fail"
-      !!
-    ?:  =(0 a)  i.b
-    $(b t.b, a (dec a))
   --
 ::    2n: functional hacks
 +|  %functional-hacks
