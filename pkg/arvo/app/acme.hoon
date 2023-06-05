@@ -1319,12 +1319,12 @@
     check-order:effect
   ::
       %retry
-    (add-order (sy /network/arvo/(crip +:(scow %p our.bow)) ~))
+    (add-order (silt /network/arvo/(crip +:(scow %p our.bow)) ~))
   ==
 ::  +poke-path: for debugging
 ::
 ++  poke-path
-  |=(a=path abet:(add-order (sy a ~)))
+  |=(a=path abet:(add-order (silt a ~)))
 ::  +bound: response to %serve binding request
 ::
 ++  bound

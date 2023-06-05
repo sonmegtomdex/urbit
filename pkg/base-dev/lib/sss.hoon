@@ -282,7 +282,7 @@
     ^-  pubs
     %+  perm  whence
     |=  old=(unit (set ship))
-    ?~  old  ~  `(~(dif in u.old) (sy who))
+    ?~  old  ~  `(~(dif in u.old) (silt who))
   ::                                         ::  Allow ships to paths.
   ++  allow                                  ::  Any public paths will no-op.
     |=  [who=(list ship) where=(list paths)]
@@ -356,7 +356,7 @@
     |=  [ps=(list paths) edit=$-(buoy buoy)]
     ^-  pubs
     :-  %0
-    %-  ~(rep in (sy ps))
+    %-  ~(rep in (silt ps))
     |=  [path=paths =_pub]
     %-  fall  :_  pub  %-  mole  |.
     (~(jab by pub) path edit)

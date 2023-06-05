@@ -1687,14 +1687,14 @@
       ++  on-sift
         |=  ships=(list ship)
         ^+  event-core
-        =.  ships.bug.ames-state  (sy ships)
+        =.  ships.bug.ames-state  (silt ships)
         event-core
       ::  +on-snub: handle request to change ship blacklist
       ::
       ++  on-snub
         |=  [form=?(%allow %deny) ships=(list ship)]
         ^+  event-core
-        =.  snub.ames-state  [form (sy ships)]
+        =.  snub.ames-state  [form (silt ships)]
         event-core
       ::  +on-spew: handle request to set verbosity toggles on debug output
       ::

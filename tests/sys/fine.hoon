@@ -109,7 +109,7 @@
   ~&  >  'checks two listeners for the requested scry path'
   =/  t3=tang
     %+  expect-eq
-      !>((sy ~[~[/keen-duct-1] ~[/keen-duct-2]]))
+      !>((silt ~[~[/keen-duct-1] ~[/keen-duct-2]]))
     !>(listeners)
   ::
   :-  t3  |.  :-  %|

@@ -4643,7 +4643,7 @@
       |=  =dude:gall
       =(`| (~(get by ren) dude))
     ::
-    =/  dus  (sy duz)
+    =/  dus  (silt duz)
     =.  duz
       %+  weld  duz
       %+  murn  ~(tap by ren)
