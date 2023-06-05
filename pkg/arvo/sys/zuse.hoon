@@ -3788,7 +3788,7 @@
       |*  [fel=rule wit=fist]
       %+  cu
         |=  a=(list (pair _(wonk *fel) _(need *wit)))
-        (my:nl a)
+        (molt a)
       %-  ci  :_  (om wit)
       |=  a=(map cord _(need *wit))
       ^-  (unit (list _[(wonk *fel) (need *wit)]))
@@ -4851,7 +4851,7 @@
     ++  enty                                            ::  entity
       %+  ifix  pam^mic
       ;~  pose
-        =+  def=^+(ent (my:nl [%gt '>'] [%lt '<'] [%amp '&'] [%quot '"'] ~))
+        =+  def=^+(ent (molt [%gt '>'] [%lt '<'] [%amp '&'] [%quot '"'] ~))
         %+  sear  ~(get by (~(uni by def) ent))
         (cook crip ;~(plug alf (stun 1^31 aln)))
         %+  cook  |=(a=@c ?:((gth a 0x10.ffff) '�' (tuft a)))

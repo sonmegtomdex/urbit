@@ -328,7 +328,7 @@
             =/  cur  (~(get by out) blocknum)
             ?~  cur
               %+  ~(put by out)  blocknum
-              (my [[transaction-hash.u.mined.log effects]~])
+              (molt [[transaction-hash.u.mined.log effects]~])
             %+  ~(put by out)  blocknum
             (~(put by u.cur) transaction-hash.u.mined.log effects)
     ==
